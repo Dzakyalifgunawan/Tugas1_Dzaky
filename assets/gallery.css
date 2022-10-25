@@ -1,0 +1,74 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../gambar/background\ gallery.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.header {
+    display: flex;  
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between ;
+    font-size: 20px;
+    padding:  15px;
+    width: 100% !important;
+    height: 60px;
+    background-color:black;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.firstname {
+    color: blue;
+    font-weight: 300;
+}
+
+.lastname {
+    color:white;
+    font-weight: 300;
+    padding-left: 4px;
+}
+
+.navigasi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigasi>li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigasi>li>a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigasi>li>a:hover {
+    color: cornflowerblue;
+    transition: all .3s ease-in-out;
+}
+
+table {
+    background-color: blue;
+}
+
+td {
+    background-color: chocolate;
+}
